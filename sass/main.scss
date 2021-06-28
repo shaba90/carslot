@@ -1,0 +1,42 @@
+@import "Abstracts/functions";
+@import "Abstracts/mixins";
+@import "Abstracts/variables";
+
+
+
+
+@import "components/navigation";
+@import "components/amount";
+@import "components/side";
+@import "components/line";
+@import "components/footer";
+
+
+
+
+@import "base/base";
+@import "base/typography";
+@import "base/utilities";
+
+// @import "base/utilities";
+
+@import "pages/home";
+
+body{
+
+}
+
+.container{
+    
+position: relative;
+width: 1152px;
+height: 700px;
+background: #020202;
+
+@media screen and (max-width:600px){
+    position: relative;
+    width: 375px;
+    height: 812px;
+    background: #020202;
+    }
+}

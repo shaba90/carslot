@@ -1,0 +1,14 @@
+.line{
+    
+position: absolute;
+width: 1152px;
+height: 5px;
+left: 0px;
+top: 578px;
+background: #353535;
+@media screen and (max-width:600px){
+    visibility: hidden;
+}
+
+
+}
